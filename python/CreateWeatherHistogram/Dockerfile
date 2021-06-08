@@ -6,5 +6,5 @@ WORKDIR C:\myGitHub\MyRepo\python\CreateWeatherHistogram
 COPY requirements.txt requirements.txt
 RUN pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
 COPY . .
-ENTRYPOINT ["python3", "-m", "CreateWeatherHistogram"]
+ENTRYPOINT ["python3", "-m", "app"]
 CMD ["no_parameter_specified"]
