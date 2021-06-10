@@ -4,9 +4,6 @@ import numpy as np
 import requests as rq
 import matplotlib.pyplot as plt
 from matplotlib.ticker import StrMethodFormatter
-#from collections import Counter
-#from numpy.core.fromnumeric import size
-#from numpy.lib.polynomial import _binary_op_dispatcher
 
 def main(inputfile, outputfile, bucketcount):
     
